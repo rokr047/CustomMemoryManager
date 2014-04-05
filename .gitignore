@@ -3,3 +3,12 @@
 
 # Ada Library Information
 *.ali
+
+#Codeblocks files
+*.cbp
+*.layout
+*.depend
+bin
+obj
+bin/*.*
+obj/*.*
