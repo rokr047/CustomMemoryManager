@@ -24,26 +24,20 @@ Adding a new block when there is an empty block; we search through the bookmark 
 Pros:  
 
 		1. No need to go through large data blocks for finding empty blocks. searching bookmarks much faster.
-		  
 		2. Very quick removal.
-		  
 		3. Very quick addition when empty blocks are present.
-		  
 		4. Very less to no fragmentation.
-		  
-		5. Efficient use of block memory, very less empty blocks at the start of buffer, as we are filling up the first empty space we get.
-		  
+		5. Efficient use of block memory, very less empty blocks at the start of buffer,  
+			as we are filling up the first empty space we get.
 		6. Index access much faster as there will be running through bookmark and not actual data blocks.
 
 Cons:  
 
 		  
-		  1. A little slower due to loops [searching through the bookmarks].
-		  
-		  2. Requires additional memory for bookmark for each data block created [when there are no empty blocks.]
+		1. A little slower due to loops [searching through the bookmarks].
+		2. Requires additional memory for bookmark for each data block created [when there are no empty blocks.]
 		
 References:  
 
 		http://www.thinkmind.org/download.php?articleid=computation_tools_2012_1_10_80006  
-		
 		http://eatplayhate.me/2010/09/04/memory-management-from-the-ground-up-2-foundations/
