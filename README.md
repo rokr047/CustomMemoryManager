@@ -1,6 +1,8 @@
 CustomMemoryManager
 ===================
 
+For a FastMemoryManager click <a href="https://github.com/rokr047/FastMemoryManager">here</a>  
+
 My own implementation of a Custom Memory Manager, that allocates ONLY equal sized blocks.  
 
 We are going to do bookkeeping in order to maintain the data.  
