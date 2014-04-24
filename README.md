@@ -38,6 +38,5 @@ Cons:
 		2. Requires additional memory for bookmark for each data block created [when there are no empty blocks.]
 		
 References:  
-
-		<a href="http://www.thinkmind.org/download.php?articleid=computation_tools_2012_1_10_80006">http://www.thinkmind.org/download.php?articleid=computation_tools_2012_1_10_80006</a>  
-		<a href="http://eatplayhate.me/2010/09/04/memory-management-from-the-ground-up-2-foundations/">http://eatplayhate.me/2010/09/04/memory-management-from-the-ground-up-2-foundations/</a>
+<a href="http://www.thinkmind.org/download.php?articleid=computation_tools_2012_1_10_80006">http://www.thinkmind.org/download.php?articleid=computation_tools_2012_1_10_80006</a>  
+<a href="http://eatplayhate.me/2010/09/04/memory-management-from-the-ground-up-2-foundations/">http://eatplayhate.me/2010/09/04/memory-management-from-the-ground-up-2-foundations/</a>
