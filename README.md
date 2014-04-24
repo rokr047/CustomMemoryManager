@@ -22,7 +22,7 @@ there is a little caveat here though, we are looping through the bookmarks to fi
 Adding a new block when there is an empty block; we search through the bookmark to find a bookmark that has empty set to true, thats all.
 
 Pros:
-		1. No need to go through large data blocks for finding empty blocks. searching bookmarks much faster.
+		\n1. No need to go through large data blocks for finding empty blocks. searching bookmarks much faster.
 		2. Very quick removal.
 		3. Very quick addition when empty blocks are present.
 		4. Very less to no fragmentation.
