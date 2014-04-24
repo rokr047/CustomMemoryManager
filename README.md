@@ -9,7 +9,7 @@ We will store the bookmark header and the bookmarks from left -> right and data 
 
 The bookmark will hold 2 information,  
 1. is the block empty  
-2. 2. pointer to actual data block
+2. pointer to actual data block
 
 The header contains general buffer and allocation information.
 
